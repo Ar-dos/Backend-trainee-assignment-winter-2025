@@ -3,3 +3,5 @@
 Также в папке srс нужно запустить команду composer install для установки зависимостей.
 После этого можно запускать docker командой docker-compose up -d.
 При работе docker http запросы будут приниматься по адресу localhost:8080.
+
+Пример использования jwt токена в хедере http-запроса: { Authorization : Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJMYXJhdmVsIiwiaWF0IjoxNzM5Njg3NjUxLCJleHAiOjE3Mzk2OTMwNTEsImp0aSI6IklncW16OE9JdWQwNkJtZ1oiLCJpZCI6MX0.xigK_n3sz0MgrCcVQOpIARUL-D--EONOfKjWc2t3pQw } .
